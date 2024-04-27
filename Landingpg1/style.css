@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #ab5330e8;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(25, 0, 255);
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover ;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #a4808a8a;
+}
+#part3{
+    height: 100%;
+    width: 14%;
+    
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 85px;
+    font-family: monument;
+    font-weight: 500;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#small-img{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: #402f27;
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -38%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+#vertical-text>h1{
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 8px;
+    font-family: sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    /* background-color: red; */
+    left: 6%;
+    top: 5%;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
